@@ -1,0 +1,47 @@
+:root {
+    --bs-font-sans-serif: "Roboto", sans-serif;
+    --bs-blue: #2067F5;
+    --bs-primary: #2067F5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+/**
+    container class for bootstrap and their max-width
+    .container - max-width: 576px
+    .container-sm - max-width: 540px
+    .container-md - max-width: 720px
+    .container-lg - max-width: 960px
+    .container-xl - max-width: 1140px
+    .container-xxl - max-width: 1320px
+    .container-fluid - width: 100%
+
+    Grid System
+    A row is divided into 12 columns
+    ie
+    <div class="row">
+        <div class="col-1">Box 1<div/> - meaning it takes 1/12 of the space
+        <div class="col-5">Box 2<div/> - meaning it takes 5/12 of the space
+        <div class="col-6">Box 3<div/> - meaning it takes 6/12 of the space
+    <div/> 
+**/
+/** 
+practice
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-size: 16px;
+}
+
+body {
+    background-color: var(--primary-color, #3498db);
+    font-size: var(--font-size);
+}
+
+button {
+    background-color: var(--secondary-color);
+}
+**/
